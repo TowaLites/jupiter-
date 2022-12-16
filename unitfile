@@ -1,0 +1,6 @@
+git branch -f slave
+git remote add origion htpss
+git clone htpss
+git clean -f 
+git reset .
+git revert  13fc42b74
